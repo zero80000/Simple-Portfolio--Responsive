@@ -1,0 +1,85 @@
+body {
+    font-family: 'Press Start 2P', cursive; /* Consider a gaming-themed font */
+    background-color: #181818; /* Dark background */
+    color: #fff; /* Light text */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #282828; /* Slightly lighter dark background */
+    padding: 1rem;
+    border-bottom: 2px solid #4CAF50; /* Green border */
+}
+
+nav a {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+nav a:hover {
+    color: #4CAF50; /* Green on hover */
+}
+
+section {
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+h1, h2 {
+    color: #4CAF50; /* Green headings */
+}
+
+/* Add a subtle shadow to elements */
+.shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for skills section (example) */
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    background-color: #383838;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+/* Style for projects section (example) */
+#projects ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#projects li {
+    width: 200px; /* Adjust width as needed */
+    background-color: #383838;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #282828;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Media queries for responsiveness (example) */
+@media (max-width: 768px) {
+    #projects li {
+        width: 100%;
+    }
+}
